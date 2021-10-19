@@ -1,0 +1,28 @@
+#Choose your article text and define it as article = 
+
+#This is made from two functions, one that removes punctuation from the "Article" on the assumption that maybe in Tzara's imagination, 
+#you would cut out the punctuation and just keep the words. I need to redo that so that everything is removed by apostrophes, but I haven't
+#had time. If you fork it and add that--thank you! 
+
+def DadaistPoemMachine(article):
+    import time
+    def RemovePunctandSplit(article):
+        import re
+        article = re.sub(r'[^\w\s]', '', article)
+    A_Bag = article.split()
+    def ShakeGentlyAndPrint(A_Bag):
+        import random
+        import time
+    print("...your poem is being made from scratch...")
+    time.sleep(2)
+    print("...loading...")
+    time.sleep(2)
+    print("...almost there...\n\n")
+    time.sleep(2)
+    print("~~~This is your Dadaist Poem~~~\n")
+    for the_words in A_Bag:
+        import random
+        import time
+        random.shuffle(A_Bag)
+        print(the_words, flush= True)
+        time.sleep(.5)
