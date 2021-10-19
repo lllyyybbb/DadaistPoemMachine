@@ -3,7 +3,8 @@
 
 #This is made from two functions, one that removes punctuation from the "Article" on the assumption that maybe in Tzara's imagination, 
 #you would cut out the punctuation and just keep the words. I need to redo that so that everything is removed by apostrophes, but I haven't
-#had time. If you fork it and add that--thank you! 
+#had time. If you fork it and add that--thank you!
+#Available under CC0 but would appreciate the credit (to Lillian-Yvonne Bertram, they/them) if used!
 
 def DadaistPoemMachine(article):
     import time
